@@ -113,7 +113,7 @@ if git diff --cached --quiet; then
 else
   git commit -m "2023 재배포 $(date '+%Y-%m-%d %H:%M')" || exit 1
 fi
-git push && echo "  ✅ push 완료. https://jbseo-commits.github.io/eduwill-bupyeong-2022/2023/"
+git push && echo "  ✅ push 완료. https://jjsjb88-alt.github.io/eduwill-bupyeong-2022/2023/"
 
 echo
 echo "== 5. 배포 후 검증 =="
